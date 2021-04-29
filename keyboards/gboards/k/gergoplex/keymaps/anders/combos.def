@@ -6,7 +6,7 @@
 #include "combos/germ-mouse-keys.def"
 
 // User includes
-#include "gergoplex.def"
+//#include "gergoplex.def"
 
 // Word completion
 //#include "combos/eng-combos.def"
