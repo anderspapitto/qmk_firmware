@@ -56,7 +56,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     KC_NO,   KC_AT,   KC_HASH, KC_DLR , KC_PERC,   KC_CIRC, KC_AMPR, KC_LPRN, KC_RPRN, KC_NO,
     KC_TILD, KC_QUOT, KC_DQUO, KC_UNDS, KC_COLN,   KC_SCLN, KC_MINS, KC_LBRC, KC_RBRC, KC_PIPE,
     KC_GRV,  KC_EXLM, KC_EQL,  KC_ASTR, KC_NO,     KC_NO,   KC_PLUS, KC_LCBR, KC_RCBR, KC_BSLS,
-                      KC_NO,   KC_NO,   KC_NO,     KC_NO,   KC_NO,   KC_NO
+                      KC_TRNS, KC_TRNS, KC_TRNS,   KC_TRNS, KC_NO,   KC_TRNS
 ),
 
 /* Keymap 2: Numbers and Movement layer
@@ -72,7 +72,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     KC_NO,   KC_2,    KC_3,    KC_4,    KC_5,      KC_6,    KC_7,    KC_8,    KC_9,    KC_NO,
     KC_PGUP, KC_1,    KC_LEFT, KC_RGHT, KC_HOME,   KC_END,  KC_DOWN, KC_UP,   KC_0,    KC_PGDN,
     KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,     KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,   
-                      KC_NO,   KC_NO,   KC_NO,     KC_NO,   KC_NO,   KC_NO
+                      KC_TRNS, KC_TRNS, KC_TRNS,   KC_TRNS, KC_NO,   KC_TRNS
 )
 
 };
