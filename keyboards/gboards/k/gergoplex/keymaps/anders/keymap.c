@@ -40,16 +40,16 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
 /* Keymap 1: Numbers and Symbols layer
  * /-----------------------------\      /-----------------------------\
- * | 1 ! | 2 @ | 3 # | 4 $ | 5 % |      | 6 ^ | 7 & | 8 * | 9 ( | 0 ) |
+ * |     | 2 @ | 3 # | 4 $ | 5 % |      | 6 ^ | 7 & | 8 * | 9 ( |     |
  * |-----+-----+-----+-----+-----|      |-----+-----+-----+-----+-----|
- * |     | Esc | Tab | Ent | Bsp |      | Lft | Dwn | Up  | Rgt |     |
+ * | 1 ! | Esc | Tab | Ent | Bsp |      | Lft | Dwn | Up  | Rgt | 0 ) |
  * |-----+-----+-----+-----+-----|      |-----+-----+-----+-----+-----|
  * | ` ~ | ; : | ' " | _ - |     |      |     | = + | [ { | ] } | \ | |
  * \-----------------------------/      \-----------------------------/
  */
 [1] = LAYOUT_gergoplex(
-    KC_1,    KC_2,    KC_3,    KC_4,    KC_5,      KC_6,    KC_7,    KC_8,    KC_9,    KC_0,
-    KC_NO,   KC_ESC,  KC_TAB,  KC_ENT,  KC_BSPC,   KC_LEFT, KC_DOWN, KC_UP,   KC_RGHT, KC_NO,
+    KC_NO,   KC_2,    KC_3,    KC_4,    KC_5,      KC_6,    KC_7,    KC_8,    KC_9,    KC_NO,
+    KC_1,    KC_ESC,  KC_TAB,  KC_ENT,  KC_BSPC,   KC_LEFT, KC_DOWN, KC_UP,   KC_RGHT, KC_0,
     KC_TILD, KC_SCLN, KC_QUOT, KC_MINS, KC_NO,     KC_NO,   KC_EQL,  KC_LBRC, KC_RBRC, KC_BSLS,
                       KC_TRNS, KC_TRNS, KC_TRNS,   KC_TRNS, KC_TRNS, KC_TRNS
 )
